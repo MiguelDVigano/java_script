@@ -13,8 +13,8 @@ if(idade < 18) {
 const numeros = [1, 2, 3, 4, 5];
 for(let i = 0 ; i < numeros.length; i++) { // length é o tamanho do array
     if(numeros[i] % 2 === 0) {
-        console.log(`${numeros[i]} é par.`);
+        console.log(`${numeros[i]} é par`);
     }else {
-        console.log(`${numeros[i]} é ímpar.`);
+        console.log(`${numeros[i]} é ímpar`);
     }
 }
