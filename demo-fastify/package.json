@@ -1,0 +1,19 @@
+{
+  "name": "demo-fastify",
+  "version": "1.0.0",
+  "description": "Demonstração de Fastify: rotas, plugins, hooks, decorators e MVC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.8.5",
+    "fastify-plugin": "^5.1.0"
+  }
+}
